@@ -12,4 +12,3 @@ xingzuo = ['魔羯座', '双鱼座', '射手座', '天秤座']
 dict1 = {i: j for i, j in zip(name, xingzuo)}
 print(dict1)
 
-
