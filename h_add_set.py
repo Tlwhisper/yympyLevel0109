@@ -19,7 +19,8 @@ python = {"王一伊", "李静", "李明", "李白"}
 c = {"李静", "李明", "d杜甫", "杨过"}
 python.add(c.pop())  # 把杨过改成学python
 print(python)
-
+print("选了python但是没有选上C语言的学生是： ", python - c)
+print("只选了python和C语言中的一个的学生是： ", python ^ c)
 
 
 
