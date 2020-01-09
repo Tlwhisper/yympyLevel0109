@@ -19,11 +19,21 @@
 
 
 # # 4 遍历
+# word = dict(冷毅毅='射手座', 王明='魔羯座', 度哈哈='双鱼座', 天使='双子座')
+# print(word.items())
+#
+# for item in word.items():
+#     print(item)
+#
+# for key, value in word.items():
+#     print(key + "的星座是：" + value)
+
+
+# # 添加删除元素
 word = dict(冷毅毅='射手座', 王明='魔羯座', 度哈哈='双鱼座', 天使='双子座')
-print(word.items())
+word['明月'] = "巨蟹座"
+print(word)
+del word['冷毅毅']
+print(word)
 
-for item in word.items():
-    print(item)
 
-for key, value in word.items():
-    print(key + "的星座是：" + value)
